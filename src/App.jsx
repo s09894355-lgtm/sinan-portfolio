@@ -59,23 +59,25 @@ export default function App() {
           experiences.
         </p>
 
-        {/* BUTTON */}
-        <button
+        {/* WHATSAPP BUTTON */}
+        <a
+          href="https://wa.me/918590594972"
+          target="_blank"
           style={{
+            display: 'inline-block',
             marginTop: '35px',
             padding: '16px 40px',
-            border: 'none',
             borderRadius: '18px',
             background: '#22d3ee',
             color: '#020617',
             fontWeight: 'bold',
             fontSize: '18px',
-            cursor: 'pointer',
+            textDecoration: 'none',
             boxShadow: '0 10px 30px rgba(34,211,238,0.4)'
           }}
         >
-          Explore My Work
-        </button>
+          Send Message
+        </a>
 
         {/* WEDDING PROJECT */}
         <div
